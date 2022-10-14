@@ -1,0 +1,87 @@
+.blog {
+    margin: 0 auto;
+    max-width: 980px;
+    min-height: 600px;
+    padding-top: 157px;
+    font-family: Proxima-Nova-Regular;
+    // background-color:aqua;
+
+    .blog-header {
+        h1 {
+            // background-color: aliceblue;
+            font-size: 30px;
+            margin-bottom: 0;
+            letter-spacing: 3px;
+        }
+
+        .bottom-border {
+        width: 100px;
+        height: 2px;
+        margin-top: 10px;
+        margin-bottom: 32px;
+        background-color: #000;
+        }
+    }
+
+    .blog-container {
+        max-width: 100%;
+        min-height: 376px;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        // background-color: antiquewhite;
+        .blog-left {
+            width: 60px;
+            height: 100px;
+            // background-color: aquamarine;
+            .date {
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                color: #fff;
+                padding: 10px;
+                h1 {
+                    font-family: GillSans;
+                    font-size: 22px;
+                    margin-bottom: 0;
+                }
+
+                h2 {
+                    font-size: 12px;
+                    font-family: GillSans-light;
+
+                }
+                background-color: #79ADDC;
+            }
+        }
+
+        .blog-right {
+            max-width: 900px;
+            min-height: 376px;
+            font-family: GillSans;
+            // background-color: cadetblue;
+
+            .right-image {
+                margin-bottom: 20px;
+                img {
+                    width: 100%;
+                    min-height: 259px;
+                }
+            }
+
+            .right-header {
+                max-width: 380px;
+                font-size: 15px;
+                margin-bottom: 11px;
+            }
+
+            .right-info {
+                max-width: 380px;
+                font-size: 13px;
+                line-height: 15px;
+                color: #79ADDC;
+            }
+        }
+    }
+}
+

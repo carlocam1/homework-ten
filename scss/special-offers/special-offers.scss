@@ -1,0 +1,82 @@
+.special-offers {
+    margin: 0 auto;
+    max-width: 980px;
+    padding-top: 157px;
+    font-family: Proxima-Nova-Regular;
+
+    .border {
+        width: 170px;
+        height: 2px;
+        background-color: #000;
+        margin-top: 7px;
+    }
+
+    .offers-header {
+        max-width: 100%;
+        height: 30px;
+        font-size: 30px;
+        letter-spacing: 4px;
+        margin-bottom: 45px;
+        margin-left: 10px;
+        // background-color: #79ADDC;
+    }
+
+    .offer-container {
+        // max-width: 1080px;
+        min-height: 287px;
+        display: flex;
+        // justify-content: space-between;
+        margin-bottom: 60px;
+        // background-color: cadetblue;
+
+        .left {
+            max-width: 199px;
+            min-height: 287px;
+            margin-right: 20px;
+            margin-left: 10px;
+            
+            img {
+                height: 100%;
+                width: 100%;     
+            }
+            // background-color: coral;
+        }
+
+        .right {
+            width: 335px;
+            min-height: 287px;
+            // background-color: brown;
+
+            .tour-special {
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-bottom: 23px;
+            }
+
+            .tour-description {
+                font-size: 16px;
+                font-family: GillSans-Light;
+                letter-spacing: 2px;
+                line-height: 18px;
+                margin-bottom: 54px;
+                
+            }
+
+            .button {
+                width: 133px;
+                padding: 12px 21px;
+                border-radius: 25px;
+                text-align: center;
+                font-size: 15px;
+                font-family: Gillsans;
+                text-transform: uppercase;
+                color: white;
+                background-color: #79ADDC;
+            }
+        }
+    }
+}
+
+
+
+
